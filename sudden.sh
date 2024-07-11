@@ -4,7 +4,14 @@ FILE=~/tmp/_SUDDEN
 
 while true
 do
-	echo "check"
+	if [[ -f "$FILE" ]]; then
+	   #echo "check $FILE"
+	   echo "SUDDEN!!!"
+   	else
+	     clear
+	     figlet KIA	
+     	     date '+%Y-%m-%d'	     
+	fi
 	sleep 3
 done
 
