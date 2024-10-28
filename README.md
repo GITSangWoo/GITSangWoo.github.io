@@ -1,8 +1,9 @@
-# GITSangWoo.github.io
+# firstpj
+- https://firstpj.firebaseapp.com \
+- https://firstpj.web.app
+### deploy
+```bash
+$ firebase deploy --only hosting:samdulshop
+```
 
 
-###VERSION
-- 1.4.0 : KIA 
-- 1.5.0 : HYUNDA
-- 3.0.0 : SUDDEN SHELL SCRIPT
-- 3.0.1 : fix update date  
